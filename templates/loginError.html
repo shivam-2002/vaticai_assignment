@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invalid Login</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            max-width: 100%;
+        }
+
+        .error-message {
+            color: #ff0000;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .back-link {
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <p class="error-message">Invalid login credentials. Please try again.</p>
+    <p class="error-message">{{error}}</p>
+    <form action="/">
+        <a href="/" class="back-link">Back to Login</a>
+    </form>
+</div>
+
+</body>
+</html>

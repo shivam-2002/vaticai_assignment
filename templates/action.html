@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+            flex-direction: column;
+        }
+
+        button {
+            font-size: large;
+            margin: 10px 20px 10px 20px;
+            padding: 10px 20px 10px 20px;
+            cursor: pointer;
+            background-color: aqua;
+            border: 0px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            color: rgb(157, 190, 187);
+            scale: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1> Welcom! Choose Your Operation</h1>
+    </div>
+
+    <div>
+        <div>
+            <form method="post" action="/add">
+                <button type="submit">Add User</button>
+            </form>
+        </div>
+    
+       <div>
+        <form method="post" action="/list_user">
+            <button type="submit">View User</button>
+        </form>
+       </div>
+    </div>
+    
+</body>
+</html>
