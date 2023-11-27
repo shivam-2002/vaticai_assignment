@@ -10,3 +10,4 @@ steps involved during creation of this project:
 
 7. start server: uvicorn main:app --reload
 	main is the file name of python file
+8. open http://127.0.0.1:8000
