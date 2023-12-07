@@ -4,7 +4,7 @@ steps involved during creation of this project:
 1. Create Virtual Environment: python -m venv C:\Users\shiva\OneDrive\Desktop\UserLogin\venv
 2. Activate Virtual Environment: & C:\Users\shiva\OneDrive\Desktop\UserLogin\venv\Scripts\Activate.ps1
 3. install uvicorn: pip3 install uvicorn
-4. install fastapi and jinja2: pip install uvicorn jinja2       
+4. install fastapi and jinja2: pip install uvicorn jinja2   fastapi    
 5. pip install python-multipart
 6. pip install --upgrade mysql-connector-python
 
